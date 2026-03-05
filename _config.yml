@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: LumenVestige # the main title
+title: Sanyinchen # the main title
 
 tagline:  # it will display as the subtitle
 
@@ -23,10 +23,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://lumenvestige.github.io"
+url: "https://sanyinchen.github.io"
 
 github:
-  username: LumenVestige # change to your GitHub username
+  username: 艾斯卡诺 # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -34,11 +34,11 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: LumenVestige
+  name: Sanyinchen
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/LumenVestige/ # change to your GitHub homepage
+    - https://github.com/sanyinchen/ # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -97,7 +97,7 @@ theme_mode: # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://avatars.githubusercontent.com/u/216470907?s=200&v=4"
+avatar: "https://avatars.githubusercontent.com/u/4750411?v=4&size=64"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
