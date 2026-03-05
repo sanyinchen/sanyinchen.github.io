@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import re
-import json
 import requests
 from bs4 import BeautifulSoup
 
