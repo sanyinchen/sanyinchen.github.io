@@ -1,0 +1,12 @@
+[
+  {
+    "title": "一、环境准备",
+    "url": "/posts/system-android-source/",
+    "categories": "操作系统, Android2.3系统源码",
+    "tags": "Android, System",
+    "date": "2025-06-19 16:00:00 +0800",
+    "content": "一、下载Android 2.3系统源码（以下相关下载仓库均使用国内镜像）    下载repo： curl https://mirrors.tuna.tsinghua.edu.cn/git/git-repo -o ~/bin/repo            chmod a+x ~/bin/repo       修改REPO_URL为https://mirrors.tuna.tsinghua.e..."
+  }
+  
+]
+
