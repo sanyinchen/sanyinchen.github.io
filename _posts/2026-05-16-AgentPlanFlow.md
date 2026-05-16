@@ -16,7 +16,7 @@ AgentPlanFlow 是一个面向多智能体协作编程的桌面工作台。它将
 
 从工程实现上看，AgentPlanFlow 由两层能力组成：桌面编排层负责窗口、终端、进程和跨面板控制；Proxy Service（代理服务）负责模型 API 兼容、请求记录、控制台输出和 Trace 事件管理。两者配合后，开发者既可以直接操作每个智能体，也可以让 Hermes 通过工具调用把任务分发给 Codex 或 Claude；完成后的结果还可以在 Codex App 中继续微调。
 
-![agent_pannel.png](../assets/img/agent_pannel.png)
+![agent_pannel.png](../assets/img/2026-05-16-AgentPlanFlow/agent_pannel.png)
 
 三个智能体和辅助面板的职责如下：
 
@@ -63,7 +63,7 @@ AgentPlanFlow 是一个面向多智能体协作编程的桌面工作台。它将
 
 下图展示桌面层、控制层、代理层和上游模型服务之间的关系。
 
-![AgentPlanFlow 整体架构图](/assets/img/architecture-overview.png)
+![AgentPlanFlow 整体架构图](/assets/img/2026-05-16-AgentPlanFlow/architecture-overview.png)
 
 架构可以分为四层：
 
@@ -84,7 +84,7 @@ AgentPlanFlow 是一个面向多智能体协作编程的桌面工作台。它将
 
 下图展示 Proxy Service 内部主要 crate 和模块之间的关系。
 
-![Proxy Service 内部模块依赖图](/assets/img/proxy-modules.png)
+![Proxy Service 内部模块依赖图](/assets/img/2026-05-16-AgentPlanFlow/proxy-modules.png)
 
 核心模块包括：
 
@@ -107,7 +107,7 @@ AgentPlanFlow 是一个面向多智能体协作编程的桌面工作台。它将
 
 下图展示从执行入口到桌面面板就绪的主要步骤。
 
-![AgentPlanFlow 启动流程](/assets/img/startup-flow.png)
+![AgentPlanFlow 启动流程](/assets/img/2026-05-16-AgentPlanFlow/startup-flow.png)
 
 启动过程分为 6 个步骤：
 
@@ -122,7 +122,7 @@ AgentPlanFlow 是一个面向多智能体协作编程的桌面工作台。它将
 
 下图展示 Hermes 将子任务委托给 Codex 或 Claude 的链路。
 
-![Hermes 委托子任务流程](/assets/img/delegation-flow.png)
+![Hermes 委托子任务流程](/assets/img/2026-05-16-AgentPlanFlow/delegation-flow.png)
 
 以“先让 Codex 生成代码，再让 Claude 审查”为例，协作流程如下：
 
@@ -141,7 +141,7 @@ AgentPlanFlow 是一个面向多智能体协作编程的桌面工作台。它将
 
 下图展示模型请求经过 Proxy Service 的转发过程。
 
-![API 请求代理流程](/assets/img/api-proxy-flow.png)
+![API 请求代理流程](/assets/img/2026-05-16-AgentPlanFlow/api-proxy-flow.png)
 
 代理链路如下：
 
