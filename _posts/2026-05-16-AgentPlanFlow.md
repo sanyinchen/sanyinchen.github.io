@@ -146,23 +146,6 @@ AgentPlanFlow 是一个面向多智能体协作编程的桌面工作台。它将
 6. 响应沿原路径返回给调用方。
 7. Manager Service 记录请求摘要、响应预览和 Trace 事件，供 Web / TUI / Trace 面板查看。
 
-### 4.4 Plan Engine 任务分解流程
-
-下图展示 Plan Engine 的任务拆解与审查流程。
-
-![Plan Engine 任务分解流程](/assets/img/plan-engine-flow.png)
-
-典型流水线包括四个阶段：
-
-1. **分析（Analyze）**：理解用户意图，识别可能涉及的文件和约束。
-2. **拆解（Decompose）**：将任务拆分为多个 PlanItem，降低单次执行复杂度。
-3. **委派（Delegate）**：把子任务交给合适的 worker 或外部智能体执行。
-4. **审查合并（Review & Merge）**：依据 `review_prompt.md` 等模板检查结果，应用必要修正。
-
-Plan Engine 更适合处理多步骤、跨文件或需要审查闭环的任务。对于简单单点修改，直接由 Codex 或 Claude 面板完成会更轻量。
-
----
-
 ## 五、关键设计决策
 
 ### 5.1 为什么选择桌面应用而不是纯 Web 应用？
