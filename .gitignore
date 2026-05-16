@@ -3,3 +3,6 @@
 /.idea/
 /venv/
 /_site/
+yarn.lock
+/.bundle/
+/vendor/
