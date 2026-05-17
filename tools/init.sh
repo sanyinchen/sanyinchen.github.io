@@ -88,7 +88,7 @@ init_files() {
   # remove the other files
   rm -rf tools/init.sh tools/release.sh _posts/*
 
-  # build assets
+  # build 2026-05-17-AI-Agent-1
   npm i && npm run build
 
   # track the CSS/JS output

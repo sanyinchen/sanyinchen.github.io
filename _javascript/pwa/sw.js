@@ -1,4 +1,4 @@
-importScripts('./assets/js/data/swconf.js');
+importScripts('./2026-05-17-AI-Agent-1/js/data/swconf.js');
 
 const purge = swconf.purge;
 const interceptor = swconf.interceptor;

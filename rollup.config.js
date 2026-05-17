@@ -6,7 +6,7 @@ import pkg from './package.json';
 
 const SRC_DEFAULT = '_javascript';
 const SRC_PWA = `${SRC_DEFAULT}/pwa`;
-const DIST = 'assets/js/dist';
+const DIST = '2026-05-17-AI-Agent-1/js/dist';
 
 const banner = `/*!
  * ${pkg.name} v${pkg.version} | © ${pkg.since} ${pkg.author} | ${pkg.license} Licensed | ${pkg.homepage}
