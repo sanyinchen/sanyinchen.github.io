@@ -28,14 +28,11 @@ url: "https://sanyinchen.github.io"
 github:
   username: sanyinchen # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Sanyinchen
-  email: example@domain.com # change to your email address
+  name: sanyinchen
+  email: sanyinchen@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/sanyinchen/ # change to your GitHub homepage
