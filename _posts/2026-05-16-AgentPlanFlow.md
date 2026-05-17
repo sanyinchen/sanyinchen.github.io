@@ -1,7 +1,7 @@
 ---
 title: "AgentPlanFlow：多智能体协作编程的桌面工作台"
 author: sanyinchen
-date: 2025-05-16
+date: 2026-05-16
 categories: [ AI, 工作站 ]
 tags: [AgentPlanFlow, AI-Agent, Codex, Claude, Hermes, 架构, 多智能体]
 render_with_liquid: false
