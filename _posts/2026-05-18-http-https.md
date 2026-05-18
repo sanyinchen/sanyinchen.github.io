@@ -11,7 +11,7 @@ toc: true
 
 ## 一、咖啡馆里的偷窥者
 
-![HTTP vs HTTPS](../assets/img/2026-05-17-http-https/http-vs-https-villain-hero.png)
+![HTTP vs HTTPS](../assets/img/2026-05-18-http-https/http-vs-https-villain-hero.png)
 
 周六下午，你在街角的咖啡馆点了一杯拿铁，连上店里的免费 WiFi，准备登录某个老论坛回个帖子。你输入用户名、密码，回车。
 
@@ -119,7 +119,7 @@ username=alice&password=ilovecats2025
 
 DNS 一旦被劫持，你以为你在访问淘宝，其实地址解析到了钓鱼网站。HTTP 没有身份验证机制，你根本不知道对面到底是不是真的淘宝。
 
-![MITM攻击](../assets/img/2026-05-17-http-https/mitm-attack-diagram.png)
+![MITM攻击](../assets/img/2026-05-18-http-https/mitm-attack-diagram.png)
 
 这三件事——窃听、篡改、冒充——就是 HTTPS 要彻底解决的。
 
@@ -141,7 +141,7 @@ DNS 一旦被劫持，你以为你在访问淘宝，其实地址解析到了钓�
 
 这个"传递钥匙 + 顺便验证对方身份"的过程，就是 SSL/TLS 握手。
 
-![TLS握手](../assets/img/2026-05-17-http-https/tls-1-2-handshake-sequence.png)
+![TLS握手](../assets/img/2026-05-18-http-https/tls-1-2-handshake-sequence.png)
 
 ## 六、SSL/TLS 握手：保险箱钥匙是如何安全送达的
 
@@ -214,7 +214,7 @@ TLS 1.3 在 2018 年发布，做了几件大事：握手从 2-RTT 砍到 1-RTT�
 
 只要这条链能一路追溯到内置的根 CA，浏览器就认。
 
-![证书信任链](../assets/img/2026-05-17-http-https/certificate-chain-of-trust.png)
+![证书信任链](../assets/img/2026-05-18-http-https/certificate-chain-of-trust.png)
 
 那**自签名证书**为啥浏览器报警？因为没有 CA 担保，相当于自己给自己开了张"我是好人"的证明，谁信啊。当然，你内部测试环境用自签名是没问题的，把根证书加到本机信任列表就行。
 
