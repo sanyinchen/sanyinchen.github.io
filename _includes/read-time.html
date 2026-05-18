@@ -18,6 +18,11 @@
 {% endcapture %}
 
 <!-- return element -->
+<span class="wordcount me-2">
+  <em>{{ words }}</em>
+  {{- ' ' -}}
+  {{- site.data.locales[include.lang].post.words -}}
+</span>
 <span
   class="readtime"
   data-bs-toggle="tooltip"
