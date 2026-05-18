@@ -16,7 +16,6 @@ AgentPlanFlow 是一个面向多智能体协作编程的桌面工作台。它将
 
 从工程实现上看，AgentPlanFlow 由两层能力组成：桌面编排层负责窗口、终端、进程和跨面板控制；Proxy Service（代理服务）负责模型 API 兼容、请求记录、控制台输出和 Trace 事件管理。两者配合后，开发者既可以直接操作每个智能体，也可以让 Hermes 通过工具调用把任务分发给 Codex 或 Claude；完成后的结果还可以在 Codex App 中继续微调。
 
-![agent_pannel.png](../assets/img/2026-05-16-AgentPlanFlow/agent_pannel.png)
 
 三个智能体和辅助面板的职责如下：
 
@@ -215,34 +214,10 @@ AgentPlanFlow 采用低侵入方式整合现有 CLI，因此也继承了一些�
 
 ---
 
-## 七、部署方式
-
-### 本地开发
-
-```bash
-# 启动 GTK 桌面应用
-python3 index.py
-
-# 或仅启动代理服务
-cd service/proxy
-cargo run -- serve
-```
-
-### Docker 开发环境
-
-```bash
-cd docker
-./build-image.sh
-docker compose up -d
-docker compose exec dev /bin/bash
-
-# 在容器内启动桌面应用
-python3 index.py
-```
 
 ---
 
-## 八、总结
+## 七、简单总结
 
 AgentPlanFlow 展示了一种低侵入的多智能体编程工作台设计：它不要求重写 Codex、Claude 或 Hermes 的运行方式，而是通过桌面编排、PTY 控制和代理服务，把它们组织进同一个工作流。
 
