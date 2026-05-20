@@ -158,7 +158,7 @@ LightRAG 的卖点就藏在名字里：**Light**（轻量）+ **RAG**。
 
 ---
 
-*下一篇：[10 分钟上手 LightRAG——从安装到提问]({% post_url 2026-05-19-lightrag-2-quickstart %})*
+*下一篇：[10 分钟上手 LightRAG——从安装到提问](/posts/lightrag-2-quickstart/)*
 
 
 ---

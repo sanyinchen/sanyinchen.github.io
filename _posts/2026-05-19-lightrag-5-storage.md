@@ -247,9 +247,9 @@ LightRAG 的存储层设计有三个核心思路：
 
 ---
 
-*上一篇：[文档是怎样变成知识图谱的——LightRAG 索引流程全解析]({% post_url 2026-05-19-lightrag-4-indexing %})*
+*上一篇：[文档是怎样变成知识图谱的——LightRAG 索引流程全解析](/posts/lightrag-4-indexing/)*
 
-*下一篇：[双层级检索原理——高低层关键词与 Reranker]({% post_url 2026-05-19-lightrag-6-retrieval %})
+*下一篇：[双层级检索原理——高低层关键词与 Reranker](/posts/lightrag-6-retrieval/)*
 
 
 ---

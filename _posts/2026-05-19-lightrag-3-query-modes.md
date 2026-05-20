@@ -283,9 +283,9 @@ Reranker 跟 embedding 模型的本质区别：embedding 是把 query 和 chunk 
 
 ---
 
-*上一篇：[5 分钟上手 LightRAG——从安装到提问]({% post_url 2026-05-19-lightrag-2-quickstart %})*
+*上一篇：[5 分钟上手 LightRAG——从安装到提问](/posts/lightrag-2-quickstart/)*
 
-*下一篇：[文档是怎样变成知识图谱的——LightRAG 索引流程全解析]({% post_url 2026-05-19-lightrag-4-indexing %})
+*下一篇：[文档是怎样变成知识图谱的——LightRAG 索引流程全解析](/posts/lightrag-4-indexing/)*
 
 
 ---

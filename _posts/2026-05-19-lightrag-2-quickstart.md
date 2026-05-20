@@ -319,9 +319,9 @@ LightRAG 在 `lightrag/llm/` 下提供了一堆开箱即用的 LLM/Embedding 封
 
 ---
 
-*上一篇：[LightRAG：RAG 的困局与破局之道]({% post_url 2026-05-19-lightrag-1-intro %})*
+*上一篇：[LightRAG：RAG 的困局与破局之道](/posts/lightrag-1-intro/)*
 
-*下一篇：[理解四种查询模式——local、global、hybrid、naive 和 mix]({% post_url 2026-05-19-lightrag-3-query-modes %})*
+*下一篇：[理解四种查询模式——local、global、hybrid、naive 和 mix](/posts/lightrag-3-query-modes/)*
 
 
 ---

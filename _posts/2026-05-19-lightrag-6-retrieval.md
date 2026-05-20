@@ -262,9 +262,9 @@ retry 也写得很标准：`@retry(stop_after_attempt(3), wait_exponential(...))
 
 ---
 
-*上一篇：[三层存储架构——KV、向量、图数据库如何协同]({% post_url 2026-05-19-lightrag-5-storage %})*
+*上一篇：[三层存储架构——KV、向量、图数据库如何协同](/posts/lightrag-5-storage/)*
 
-*下一篇：[查询管线全景——从用户提问到最终回答的完整链路]({% post_url 2026-05-19-lightrag-7-pipeline %})
+*下一篇：[查询管线全景——从用户提问到最终回答的完整链路](/posts/lightrag-7-pipeline/)*
 
 
 ---

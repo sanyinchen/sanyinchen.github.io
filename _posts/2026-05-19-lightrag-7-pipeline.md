@@ -171,9 +171,9 @@ response = await use_model_func(
 下一篇聊生产环境——部署、存储、并发，那些真正让人头疼的事。
 
 ---
-*上一篇：[双层级检索原理——高低层关键词与 Reranker]({% post_url 2026-05-19-lightrag-6-retrieval %})*
+*上一篇：[双层级检索原理——高低层关键词与 Reranker](/posts/lightrag-6-retrieval/)*
 
-*下一篇：[生产环境部署实战——从 Demo 到线上可用]({% post_url 2026-05-19-lightrag-8-production %})*
+*下一篇：[生产环境部署实战——从 Demo 到线上可用](/posts/lightrag-8-production/)*
 
 
 ---

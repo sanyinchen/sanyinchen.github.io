@@ -296,9 +296,9 @@ LightRAG 一个杀手锏是"增量更新不重建"。具体怎么做的？
 
 ---
 
-*上一篇：[理解四种查询模式——local、global、hybrid、naive 和 mix]({% post_url 2026-05-19-lightrag-3-query-modes %})*
+*上一篇：[理解四种查询模式——local、global、hybrid、naive 和 mix](/posts/lightrag-3-query-modes/)*
 
-*下一篇：[三层存储架构——KV、向量、图数据库如何协同]({% post_url 2026-05-19-lightrag-5-storage %})
+*下一篇：[三层存储架构——KV、向量、图数据库如何协同](/posts/lightrag-5-storage/)*
 
 
 ---
