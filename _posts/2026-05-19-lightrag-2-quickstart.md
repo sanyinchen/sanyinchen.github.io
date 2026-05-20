@@ -1,8 +1,8 @@
 ---
-title: 10 分钟上手 LightRAG——从安装到提问
+title: LightRAG：10 分钟上手——从安装到提问（二）
 author: sanyinchen
 date: 2026-05-19
-categories: [ AI ]
+categories: [AI, RAG]
 tags: [LightRAG, RAG, 入门教程, 知识图谱]
 render_with_liquid: false
 toc: true
@@ -186,11 +186,11 @@ LightRAG 对 LLM 的要求比 Naive RAG 高很多，因为它把"从文档抽实
 - **参数量底线 32B**。7B/8B 的模型抽出来的实体经常张冠李戴，关系也乱。我做过对比，Qwen2.5-7B 抽出来的图谱节点数只有 Qwen2.5-32B 的 60%，关系准确率更是差一大截。
 - **上下文最少 32K，推荐 64K+**。chunk 默认 1200 token 左右，但 prompt 模板加上 few-shot 例子很占长度，上下文太短会触发截断。
 - **不要用"推理模型"**（o1、o3-mini、DeepSeek-R1 这种）。它们的思考过程对抽取任务是纯浪费，速度慢成本高，而且 reasoning tokens 不计入 output 但照样收费。
-- 推荐档位（按性价比）：DeepSeek-V3 > Qwen2.5-72B > GPT-4o-mini > Claude 3.5 Sonnet > GPT-4o。DeepSeek-V3 几乎是目前 LightRAG 索引的最优解，又便宜又抽得准。
+- 推荐档位（索引阶段，按性价比）：DeepSeek-V3 > Qwen2.5-72B > GPT-4o-mini。DeepSeek-V3 几乎是目前 LightRAG 索引的最优解，又便宜又抽得准。
 
 **查询阶段的 LLM**（同样是 `llm_model_func`，但用在回答问题时）：
 
-- 这一阶段对模型的"组织语言"能力要求更高，可以用比索引阶段更强的模型。
+- 这一阶段对模型的"组织语言"能力要求更高，可以用比索引阶段更强的模型。推荐 Claude 3.5 Sonnet ≈ GPT-4o。
 - 如果你愿意分开配置，LightRAG 也支持给查询单独指定 LLM。复杂业务里我会用 Qwen2.5-32B 索引、用 Claude 3.5 Sonnet 或 GPT-4o 查询，省一大笔钱。
 
 **Embedding 模型**：
@@ -319,7 +319,7 @@ LightRAG 在 `lightrag/llm/` 下提供了一堆开箱即用的 LLM/Embedding 封
 
 ---
 
-*上一篇：[RAG 的困局与 LightRAG 的破局之道]({% post_url 2026-05-19-lightrag-1-intro %})*
+*上一篇：[LightRAG：RAG 的困局与破局之道]({% post_url 2026-05-19-lightrag-1-intro %})*
 
 *下一篇：[理解四种查询模式——local、global、hybrid、naive 和 mix]({% post_url 2026-05-19-lightrag-3-query-modes %})*
 

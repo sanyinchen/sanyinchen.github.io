@@ -1,8 +1,8 @@
      1|---
-     2|title: 生产环境部署与最佳实践
+     2|title: LightRAG：生产环境部署与最佳实践（八）
      3|author: sanyinchen
      4|date: 2026-05-19
-     5|categories: [ AI ]
+     5|categories: [AI, RAG]
      6|tags: [LightRAG, RAG, 部署, 生产环境, Docker, 性能优化]
      7|render_with_liquid: false
      8|toc: true
@@ -302,13 +302,13 @@
    301|
    302|老话题：`addon_params={"language": "Chinese"}` 加上。**没加这个参数中文场景效果腰斩，没有之一。**
    303|
-   304|## 九、写在最后
-   305|
-   306|八篇下来，从 RAG 的局限和 LightRAG 的设计动机，一路拆到查询管线、索引流程、存储架构、检索细节，再到今天这篇生产实践——该看的源码和该踩的坑都过了一遍。
-   307|
-   308|LightRAG 是个少见的"学术想法做扎实"的开源项目。它的论文不长，但实现上的工程考量密集得离谱——prompt 缓存对齐 OpenAI 的前缀缓存、round-robin 合并、VECTOR/WEIGHT 双策略 fallback、map-reduce 的 summary、workspace 隔离。
-   309|
-   310|八篇到此。坑我踩过了，该你了。
+## 九、写在最后
+
+这个系列从 RAG 的局限和 LightRAG 的设计动机开始，一路拆了查询管线、索引流程、存储架构、检索细节，到今天这篇生产实践——该看的源码和该踩的坑都过了一遍。
+
+LightRAG 是个少见的学术想法落得扎实的开源项目。论文不长，但工程上花的功夫很密：prompt 缓存对齐 OpenAI 的前缀缓存、round-robin 合并、VECTOR/WEIGHT 双策略 fallback、map-reduce 的 summary、workspace 隔离。这些都不是炫技，是被真实场景逼出来的。
+
+希望这个系列帮你少踩几个坑。
    311|
    312|---
    313|

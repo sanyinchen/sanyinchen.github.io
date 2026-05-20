@@ -1,8 +1,8 @@
 ---
-title: 三层存储架构——KV、向量、图数据库如何协同
+title: LightRAG：三层存储架构——KV、向量、图数据库如何协同（五）
 author: sanyinchen
 date: 2026-05-19
-categories: [ AI ]
+categories: [AI, RAG]
 tags: [LightRAG, RAG, 存储架构]
 render_with_liquid: false
 toc: true

@@ -1,14 +1,14 @@
 ---
-title: 双层级检索原理——高低层关键词与 Reranker
+title: LightRAG：双层级检索原理——高低层关键词与 Reranker（六）
 author: sanyinchen
 date: 2026-05-19
-categories: [ AI ]
+categories: [AI, RAG]
 tags: [LightRAG, RAG, 检索原理, Reranker, 知识图谱]
 render_with_liquid: false
 toc: true
 ---
 
-第三篇里我们把双层级检索的骨架走过一遍——关键词怎么拆成 hl / ll、按 mode 怎么分发到 local 或 global、最后怎么 round-robin 合并。那是骨架，今天补的是"骨架之间的几块软组织"：那些看似不起眼、但实测决定了你的 LightRAG 在生产里跑得快不快、准不准的工程细节。
+第三篇里我们把双层级检索的骨架走了一遍——关键词怎么拆成 hl / ll、按 mode 怎么分发到 local 或 global、怎么 round-robin 合并。骨架清楚了，今天补几个让它在生产环境里跑得动的工程细节。
 
 具体讲四件事：
 

@@ -1,8 +1,8 @@
 ---
-title: 理解四种查询模式——local、global、hybrid、naive 和 mix
+title: LightRAG：理解查询模式——local、global、hybrid、naive 和 mix（三）
 author: sanyinchen
 date: 2026-05-19
-categories: [ AI ]
+categories: [AI, RAG]
 tags: [LightRAG, RAG, 查询模式, 知识图谱]
 render_with_liquid: false
 toc: true
