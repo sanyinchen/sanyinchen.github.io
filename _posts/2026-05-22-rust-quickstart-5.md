@@ -409,7 +409,7 @@ derive宏其实是**过程宏（procedural macro）**的一种。过程宏分三
 
 ---
 
-*上一篇：[Rust快速入门：泛型、Trait与迭代器（四）]({% post_url 2026-05-22-rust-quickstart-4 %})*
+*上一篇：[Rust快速入门：泛型、Trait与迭代器（四）](/posts/rust-quickstart-4/)*
 
 
 ---

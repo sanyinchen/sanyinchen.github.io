@@ -377,9 +377,9 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 
 ---
 
-*上一篇：[Rust快速入门：从Hello World到所有权门前（一）]({% post_url 2026-05-22-rust-quickstart-1 %})*
+*上一篇：[Rust快速入门：从Hello World到所有权门前（一）](/posts/rust-quickstart-1/)*
 
-*下一篇：[Rust快速入门：结构体、枚举与错误处理（三）]({% post_url 2026-05-22-rust-quickstart-3 %})*
+*下一篇：[Rust快速入门：结构体、枚举与错误处理（三）](/posts/rust-quickstart-3/)*
 
 
 ---

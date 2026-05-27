@@ -459,9 +459,9 @@ let result: Vec<i32> = (1..=100)
 
 ---
 
-*上一篇：[Rust快速入门：结构体、枚举与错误处理（三）]({% post_url 2026-05-22-rust-quickstart-3 %})*
+*上一篇：[Rust快速入门：结构体、枚举与错误处理（三）](/posts/rust-quickstart-3/)*
 
-*下一篇：[Rust快速入门：并发、异步与宏——从这里出发（五）]({% post_url 2026-05-22-rust-quickstart-5 %})*
+*下一篇：[Rust快速入门：并发、异步与宏——从这里出发（五）](/posts/rust-quickstart-5/)*
 
 
 

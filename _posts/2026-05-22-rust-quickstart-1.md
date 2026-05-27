@@ -424,7 +424,7 @@ fn main() {
 
 ---
 
-*下一篇：[Rust快速入门：所有权——Rust最硬的骨头（二）]({% post_url 2026-05-22-rust-quickstart-2 %})*
+*下一篇：[Rust快速入门：所有权——Rust最硬的骨头（二）](/posts/rust-quickstart-2/)*
 
 
 ---

@@ -441,9 +441,9 @@ fn read_username() -> Result<String, io::Error> {
 
 ---
 
-*上一篇：[Rust快速入门：所有权——Rust最硬的骨头（二）]({% post_url 2026-05-22-rust-quickstart-2 %})*
+*上一篇：[Rust快速入门：所有权——Rust最硬的骨头（二）](/posts/rust-quickstart-2/)*
 
-*下一篇：[Rust快速入门：泛型、Trait与迭代器（四）]({% post_url 2026-05-22-rust-quickstart-4 %})*
+*下一篇：[Rust快速入门：泛型、Trait与迭代器（四）](/posts/rust-quickstart-4/)*
 
 
 ---
