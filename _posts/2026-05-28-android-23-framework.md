@@ -3,7 +3,7 @@ title: "Android 2.3 Framework 源码架构全解析——从开机到 Activity �
 author: sanyinchen
 date: 2026-05-28
 categories: [操作系统, Android2.3系统源码]
-tags: [Android, Framework, 源码分析, Binder, Zygote, SystemServer, AMS, WMS, View系统]
+tags: [Android,System]
 render_with_liquid: false
 toc: true
 ---
