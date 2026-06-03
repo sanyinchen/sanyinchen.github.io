@@ -92,6 +92,8 @@ Rust呢？**根本不编译**。
 
 **这就是Rust并发的核心卖点**：编译期捕获数据竞争。不是运行时检测，不是测试时发现，是编译不通过。
 
+![Rust编译器在编译期拦截数据竞争：直接共享可变数据会失败，Channel和Arc<Mutex<T>>提供安全并发路径](../assets/img/2026-05-22-rust-quickstart-5/data-race-prevented.bordered.webp)
+
 那"我就是要多个线程操作同一份数据"咋办？接着往下看。
 
 ## 三、消息传递：通道（Channel）
